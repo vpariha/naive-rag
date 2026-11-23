@@ -226,3 +226,6 @@ __marimo__/
 
 #editorConfig
 .editorconfig
+
+#chrome DB
+chroma_db

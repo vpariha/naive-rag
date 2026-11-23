@@ -1,0 +1,743 @@
+[
+  {
+    "query": "How many primary studies were included in the systematic literature review?",
+    "answer": "50 primary studies.",
+    "relevant_chunks": [
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a",
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388",
+      "chunk_f7f83a2570fc2f121d4cd50abe2e10a6322b1fd83659b195677d0a92e4924ff6",
+      "chunk_f2916844adeb86cfc46c81b9d0994d1d673470819dd941a50cc96c3948bc7911"
+    ],
+    "relevance_scores": {
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a": 3,
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388": 3,
+      "chunk_f7f83a2570fc2f121d4cd50abe2e10a6322b1fd83659b195677d0a92e4924ff6": 3,
+      "chunk_f2916844adeb86cfc46c81b9d0994d1d673470819dd941a50cc96c3948bc7911": 3
+    }
+  },
+  {
+    "query": "What publication date range was used to limit the literature search?",
+    "answer": "November 2022 to September 2025.",
+    "relevant_chunks": [
+      "chunk_c6e1a199d4e702088bbe1e50a4e18b994d217b9c9189c4b6c4289a8a0ae1cba2",
+      "chunk_f2916844adeb86cfc46c81b9d0994d1d673470819dd941a50cc96c3948bc7911"
+    ],
+    "relevance_scores": {
+      "chunk_c6e1a199d4e702088bbe1e50a4e18b994d217b9c9189c4b6c4289a8a0ae1cba2": 3,
+      "chunk_f2916844adeb86cfc46c81b9d0994d1d673470819dd941a50cc96c3948bc7911": 2
+    }
+  },
+  {
+    "query": "Which eight digital libraries were searched for primary studies?",
+    "answer": "ScienceDirect, Scopus, Springer Link, Web of Science, ACM Digital Library, IEEE Xplore, Wiley, and Google Scholar.",
+    "relevant_chunks": [
+      "chunk_c6e1a199d4e702088bbe1e50a4e18b994d217b9c9189c4b6c4289a8a0ae1cba2"
+    ],
+    "relevance_scores": {
+      "chunk_c6e1a199d4e702088bbe1e50a4e18b994d217b9c9189c4b6c4289a8a0ae1cba2": 3
+    }
+  },
+  {
+    "query": "Which prompting methods were reported as most effective depending on the programming language?",
+    "answer": "One-Shot, Few-Shot, Context-Specific, and Chain-of-Thought prompting.",
+    "relevant_chunks": [
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a",
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388"
+    ],
+    "relevance_scores": {
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a": 3,
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388": 2,
+      "chunk_4c19f4808b773853d7225ce9bf0d15c903a5fa8d00a70fc5bb300d114ccc30ec": 1,
+      "chunk_c6e1a199d4e702088bbe1e50a4e18b994d217b9c9189c4b6c4289a8a0ae1cba2": 1,
+      "chunk_03e5b989b195444ce722b32175d84b553d06cd31eb03757e16ddbf81ddbfe69c": 1
+    }
+  },
+  {
+    "query": "What were the most frequently mentioned code smells in the reviewed literature?",
+    "answer": "Large Class and Long Method.",
+    "relevant_chunks": [
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a"
+    ],
+    "relevance_scores": {
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a": 3,
+      "chunk_3ae103dcf767ed64d11c8d89b057da875537ef83e05a11276556372cd99f6cbc": 1,
+      "chunk_8bdebe22fc5ce10572ad6a3e5e96f83b3c99735a0fd73d07afd9852e1d18683f": 1
+    }
+  },
+  {
+    "query": "What is the most often applied refactoring type in the reviewed studies?",
+    "answer": "Extract Method.",
+    "relevant_chunks": [
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a"
+    ],
+    "relevance_scores": {
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a": 3,
+      "chunk_3ae103dcf767ed64d11c8d89b057da875537ef83e05a11276556372cd99f6cbc": 1
+    }
+  },
+  {
+    "query": "What key challenges do LLMs face when automating refactoring?",
+    "answer": "They often generate erroneous code, struggle with complex refactoring, and misunderstand or miss developers' refactoring requests.",
+    "relevant_chunks": [
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a",
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388",
+      "chunk_202ce024d24ec1baf4f28cfbccd7439dcac082158b0ad6f7277e253e282c57d5",
+      "chunk_03e5b989b195444ce722b32175d84b553d06cd31eb03757e16ddbf81ddbfe69c"
+    ],
+    "relevance_scores": {
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a": 3,
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388": 2,
+      "chunk_4c19f4808b773853d7225ce9bf0d15c903a5fa8d00a70fc5bb300d114ccc30ec": 1,
+      "chunk_202ce024d24ec1baf4f28cfbccd7439dcac082158b0ad6f7277e253e282c57d5": 2,
+      "chunk_c6e1a199d4e702088bbe1e50a4e18b994d217b9c9189c4b6c4289a8a0ae1cba2": 1,
+      "chunk_03e5b989b195444ce722b32175d84b553d06cd31eb03757e16ddbf81ddbfe69c": 2
+    }
+  },
+  {
+    "query": "What were the study selection counts at the initial search, after duplicate removal, after title/abstract screening, and final selection?",
+    "answer": "867 initial; 558 unique after removing 309 duplicates; 79 after title/abstract screening; 50 final.",
+    "relevant_chunks": [
+      "chunk_f7f83a2570fc2f121d4cd50abe2e10a6322b1fd83659b195677d0a92e4924ff6"
+    ],
+    "relevance_scores": {
+      "chunk_f7f83a2570fc2f121d4cd50abe2e10a6322b1fd83659b195677d0a92e4924ff6": 3,
+      "chunk_8bdebe22fc5ce10572ad6a3e5e96f83b3c99735a0fd73d07afd9852e1d18683f": 2,
+      "chunk_0ca7f8cebf8b0aa0e2f445333580fed096a8ac514e463d26de4a4d890e4a207a": 1,
+      "chunk_71a650949a76a03ff6321d7e396d9b21f490e3fb225313c66a6039b2b46f5388": 1,
+      "chunk_f2916844adeb86cfc46c81b9d0994d1d673470819dd941a50cc96c3948bc7911": 1
+    }
+  },
+  {
+    "query": "What inclusion and exclusion criteria were used to select primary studies?",
+    "answer": "Included peer-reviewed journal or conference papers in computing that explicitly discuss LLMs in software refactoring; excluded non-peer-reviewed preprints, non-English papers, position papers, and studies not primarily applying generative LLMs to refactoring, such as encoder-only BERT classification work.",
+    "relevant_chunks": [
+      "chunk_8bdebe22fc5ce10572ad6a3e5e96f83b3c99735a0fd73d07afd9852e1d18683f"
+    ],
+    "relevance_scores": {
+      "chunk_8bdebe22fc5ce10572ad6a3e5e96f83b3c99735a0fd73d07afd9852e1d18683f": 3
+    }
+  },
+  {
+    "query": "What three quality assessment questions were used for primary studies?",
+    "answer": "Q1: Does the study's primary objective explicitly focus on LLM-based refactoring? Q2: Does the study include automatic or semi-automatic LLM-based refactoring approaches? Q3: Does the study sufficiently describe the LLM-based technique, underlying algorithms, and evaluation methods?",
+    "relevant_chunks": [
+      "chunk_f7f83a2570fc2f121d4cd50abe2e10a6322b1fd83659b195677d0a92e4924ff6"
+    ],
+    "relevance_scores": {
+      "chunk_f7f83a2570fc2f121d4cd50abe2e10a6322b1fd83659b195677d0a92e4924ff6": 3
+    }
+  },
+  {
+    "query": "What percentage improvement did the iSMELL model combined with LLMs achieve over standalone LLMs in code smell detection?",
+    "answer": "28.7%",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "What is the name of the plugin that integrates LLMs with IntelliJ IDEA and uses ranking mechanisms and validation techniques to refine refactoring suggestions?",
+    "answer": "EM-Assist",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "What was the improvement in Recall when using EM-Assist compared to traditional static analysis-based tools like JExtract?",
+    "answer": "Recall improved from 39.4% to 53.4%",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "Which refactoring tools were used as benchmarks to compare LLM refactoring approaches according to the text?",
+    "answer": "CodeReviewer, JDeodorant, and JMove were used as benchmarks to compare LLM refactoring approaches.",
+    "relevant_chunks": [
+      "chunk_50e6aab10121b8d21aabce686967be968ffc87b544d33d18d2319dfe109c0a11"
+    ],
+    "relevance_scores": {
+      "chunk_50e6aab10121b8d21aabce686967be968ffc87b544d33d18d2319dfe109c0a11": 3
+    }
+  },
+  {
+    "query": "How many bugs were identified by LLMs when testing refactoring engines in IntelliJ IDEA, Eclipse, NetBeans, and VSCodeJava compared to the baseline approach?",
+    "answer": "LLMs identified 86 bugs compared to the baseline approach of 24 bugs.",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "Which tool was used to identify instances of refactoring to generate datasets and provide LLMs with examples in multiple papers?",
+    "answer": "The RefactoringMiner tool was used to identify instances of refactoring to generate datasets and provide LLMs with examples in multiple papers.",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "Which study used the SWE-bench benchmark for multi-file refactoring tasks and stateful reasoning of LLMs?",
+    "answer": "Gautam et al. [75] used the SWE-bench benchmark for multi-file refactoring tasks and stateful reasoning of LLMs.",
+    "relevant_chunks": [
+      "chunk_f854d2f5f4a69636391b97c7367df6bddfed7733e39afc7e5d06507bbf0c7e00"
+    ],
+    "relevance_scores": {
+      "chunk_f854d2f5f4a69636391b97c7367df6bddfed7733e39afc7e5d06507bbf0c7e00": 3
+    }
+  },
+  {
+    "query": "Which encoder-only models are classified as tools rather than LLMs due to lacking generative capability?",
+    "answer": "BERT and its variants are classified as tools because they lack generative capability.",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "What hybrid approach combining structured LLM guidance with rule-based techniques for Python refactoring achieved over 90% accuracy?",
+    "answer": "A hybrid approach combining structured LLM guidance with rule-based techniques for Python refactoring achieved over 90% accuracy.",
+    "relevant_chunks": [
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330"
+    ],
+    "relevance_scores": {
+      "chunk_50db4bc2bf6d4bb2649256585bb98cc48bde044702be7781e47041c45f51d330": 3
+    }
+  },
+  {
+    "query": "Which conference venue is listed with the paper references [17, 18, 49, 50] in the publication venue table?",
+    "answer": "International Conference on Mining Software Repositories",
+    "relevant_chunks": [
+      "chunk_b5c50071fefee43e07fac63255212b6f978f341f02d3c45e0d644fa419c02c1d"
+    ],
+    "relevance_scores": {
+      "chunk_b5c50071fefee43e07fac63255212b6f978f341f02d3c45e0d644fa419c02c1d": 3
+    }
+  },
+  {
+    "query": "What percentage of the 50 primary studies made no mention of deliberately implementing data leakage precautions when training and evaluating LLMs for refactoring tasks?",
+    "answer": "72% (36 out of 50 primary papers).",
+    "relevant_chunks": [
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552",
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd"
+    ],
+    "relevance_scores": {
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552": 3,
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd": 2
+    }
+  },
+  {
+    "query": "Which programming language is the most common in datasets used to evaluate LLMs for refactoring tasks, and in what percentage of primary studies does it appear?",
+    "answer": "Java, appearing in 66% (33) of the primary studies.",
+    "relevant_chunks": [
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552",
+      "chunk_aad8897af1e1541a8ec20890dd2a5eef4412d8a7314a1d43994833d9cac73569",
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd"
+    ],
+    "relevance_scores": {
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552": 3,
+      "chunk_aad8897af1e1541a8ec20890dd2a5eef4412d8a7314a1d43994833d9cac73569": 3,
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd": 2
+    }
+  },
+  {
+    "query": "What is the size of the smallest dataset mentioned for evaluating LLMs on refactoring tasks?",
+    "answer": "116 methods.",
+    "relevant_chunks": [
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552",
+      "chunk_ba2b9cc8d6af8389b47e2922f0563efb3d9ee7eedd0ccae4f99e8156b530ff2e"
+    ],
+    "relevance_scores": {
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552": 3,
+      "chunk_ba2b9cc8d6af8389b47e2922f0563efb3d9ee7eedd0ccae4f99e8156b530ff2e": 2
+    }
+  },
+  {
+    "query": "What are the maximum numbers of code samples and refactoring cases reported in the largest datasets used for LLM refactoring evaluation?",
+    "answer": "Up to 30,000 code samples and 41,311 refactoring cases.",
+    "relevant_chunks": [
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552",
+      "chunk_93660f85a2b4edde87ff942775fbe6bd74d54afbf81773a110738a07811dee01"
+    ],
+    "relevance_scores": {
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552": 3,
+      "chunk_93660f85a2b4edde87ff942775fbe6bd74d54afbf81773a110738a07811dee01": 2
+    }
+  },
+  {
+    "query": "How many categories of prompt techniques for LLM-driven refactoring are identified in the review, and which one was most commonly implemented?",
+    "answer": "Seven categories; Context-Specific prompting was most commonly implemented, tested in 27 studies (22%).",
+    "relevant_chunks": [
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd",
+      "chunk_9dc3f63e68692582dbdaf3e7685601576391c4586f7de3a853e535a39e336985"
+    ],
+    "relevance_scores": {
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd": 3,
+      "chunk_9dc3f63e68692582dbdaf3e7685601576391c4586f7de3a853e535a39e336985": 3
+    }
+  },
+  {
+    "query": "What percentage of primary studies collected data from open-source projects for evaluating LLMs on refactoring tasks?",
+    "answer": "70% (35 out of 50 primary studies).",
+    "relevant_chunks": [
+      "chunk_eccf490dc74ae8582c317ffa409215f5d93cdc56017129f0536e639a387ef280",
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd"
+    ],
+    "relevance_scores": {
+      "chunk_eccf490dc74ae8582c317ffa409215f5d93cdc56017129f0536e639a387ef280": 3,
+      "chunk_060540347015346d577e3b4a63fc3ae87b8ae60896be72f46c443d8276e8c9bd": 2
+    }
+  },
+  {
+    "query": "According to the review, which prompting technique performed best for Python-based refactoring tasks in terms of reducing cyclomatic complexity and lines of code?",
+    "answer": "Few-Shot prompting performed best, reducing cyclomatic complexity by 17.35% and decreasing lines of code by 25.85%.",
+    "relevant_chunks": [
+      "chunk_9dc3f63e68692582dbdaf3e7685601576391c4586f7de3a853e535a39e336985"
+    ],
+    "relevance_scores": {
+      "chunk_9dc3f63e68692582dbdaf3e7685601576391c4586f7de3a853e535a39e336985": 3
+    }
+  },
+  {
+    "query": "What are the four methods mentioned for preventing data leakage when evaluating language models?",
+    "answer": "Training/testing splits, unseen projects or repositories, held-out datasets, and cross-validation.",
+    "relevant_chunks": [
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552"
+    ],
+    "relevance_scores": {
+      "chunk_ac3c443b6eb88834354df950eeaf070d6df7cc855a2f312d510d2bad310a8552": 3
+    }
+  },
+  {
+    "query": "How many primary studies sourced their datasets from educational environments using student program submissions?",
+    "answer": "Two studies (4%).",
+    "relevant_chunks": [
+      "chunk_eccf490dc74ae8582c317ffa409215f5d93cdc56017129f0536e639a387ef280",
+      "chunk_93660f85a2b4edde87ff942775fbe6bd74d54afbf81773a110738a07811dee01"
+    ],
+    "relevance_scores": {
+      "chunk_eccf490dc74ae8582c317ffa409215f5d93cdc56017129f0536e639a387ef280": 3,
+      "chunk_93660f85a2b4edde87ff942775fbe6bd74d54afbf81773a110738a07811dee01": 2
+    }
+  },
+  {
+    "query": "What improvement did One-Shot prompting show over Zero-Shot prompting for Java code refactoring correctness?",
+    "answer": "One-Shot prompting improved test pass rates compared to Zero-Shot by 6.15% and reduced code smells at a 3.52% higher rate.",
+    "relevant_chunks": [
+      "chunk_9dc3f63e68692582dbdaf3e7685601576391c4586f7de3a853e535a39e336985"
+    ],
+    "relevance_scores": {
+      "chunk_9dc3f63e68692582dbdaf3e7685601576391c4586f7de3a853e535a39e336985": 3
+    }
+  },
+  {
+    "query": "What is the primary motivation for using LLMs to automate refactoring according to the document?",
+    "answer": "To reduce development time and effort while enhancing the efficiency of software systems.",
+    "relevant_chunks": [
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917"
+    ],
+    "relevance_scores": {
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 3
+    }
+  },
+  {
+    "query": "Which study achieved a 95.68% success rate in refactoring using Few-Shot prompting?",
+    "answer": "Shirafuji et al. [15]",
+    "relevant_chunks": [
+      "chunk_abcc220bc48480fd57e0525f9a9a314738b3a4212f9e2b61b98c9fdcc1e6ee85"
+    ],
+    "relevance_scores": {
+      "chunk_abcc220bc48480fd57e0525f9a9a314738b3a4212f9e2b61b98c9fdcc1e6ee85": 3,
+      "chunk_e2d3b8063a4d0594e50a7580d8db9148bb0812f32151f67e0e82b23fc5e8454e": 1
+    }
+  },
+  {
+    "query": "Why is the accuracy of LLM-generated refactoring suggestions considered critical?",
+    "answer": "Because they must be reliable for integration into systems managing sensitive information or impacting people's lives.",
+    "relevant_chunks": [
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917"
+    ],
+    "relevance_scores": {
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 3
+    }
+  },
+  {
+    "query": "What reduction in code smells did UTRefactor achieve according to Gao et al.?",
+    "answer": "89% reduction of code smells",
+    "relevant_chunks": [
+      "chunk_e2d3b8063a4d0594e50a7580d8db9148bb0812f32151f67e0e82b23fc5e8454e"
+    ],
+    "relevance_scores": {
+      "chunk_e2d3b8063a4d0594e50a7580d8db9148bb0812f32151f67e0e82b23fc5e8454e": 3,
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 1
+    }
+  },
+  {
+    "query": "What is the maximum reduction in cyclomatic complexity that LLMs can achieve according to Choi et al.?",
+    "answer": "up to 10.4% reduction",
+    "relevant_chunks": [
+      "chunk_a57d0abc2a21e02afb6558858b9eed3d7379b2df8a6ed3c6e5a140b393f7c1ed"
+    ],
+    "relevance_scores": {
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 1,
+      "chunk_a57d0abc2a21e02afb6558858b9eed3d7379b2df8a6ed3c6e5a140b393f7c1ed": 3
+    }
+  },
+  {
+    "query": "What improvement in precision did Cui et al. report when using Few-Shot, Output Constraints, and Context-Specific prompting?",
+    "answer": "27.8% increase in precision",
+    "relevant_chunks": [
+      "chunk_fd8143b52575dbe5f54032a8d638d169ec04be362df9858e3b7b709e2eb82a3b"
+    ],
+    "relevance_scores": {
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 1,
+      "chunk_fd8143b52575dbe5f54032a8d638d169ec04be362df9858e3b7b709e2eb82a3b": 3
+    }
+  },
+  {
+    "query": "What accuracy did the tool iSMELL achieve according to Wu et al.?",
+    "answer": "75.17%",
+    "relevant_chunks": [
+      "chunk_a57d0abc2a21e02afb6558858b9eed3d7379b2df8a6ed3c6e5a140b393f7c1ed"
+    ],
+    "relevance_scores": {
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 1,
+      "chunk_a57d0abc2a21e02afb6558858b9eed3d7379b2df8a6ed3c6e5a140b393f7c1ed": 3
+    }
+  },
+  {
+    "query": "What is the title of the table that lists prompt techniques used in LLM-driven refactoring?",
+    "answer": "Table 4: Prompt technique used in LLM-driven refactoring (RQ3).",
+    "relevant_chunks": [
+      "chunk_bb8d71082ba2c1bab0e2520e371e531fd67cc890e02af4541de74825d4ae8bee"
+    ],
+    "relevance_scores": {
+      "chunk_47d195547952555416184c30790194f346a2d3479aa4ac4de11e1832cbf87917": 1,
+      "chunk_bb8d71082ba2c1bab0e2520e371e531fd67cc890e02af4541de74825d4ae8bee": 3
+    }
+  },
+  {
+    "query": "What F1 score improvement did the MoveRec tool achieve according to Ben Mrad et al.?",
+    "answer": "F1 improved from 9.4% to 53.4%",
+    "relevant_chunks": [
+      "chunk_66d5caebfe6ac85e5310b2bd8e4687b1c84d5e8321a21fe6ce51bd9c68032c85"
+    ],
+    "relevance_scores": {
+      "chunk_66d5caebfe6ac85e5310b2bd8e4687b1c84d5e8321a21fe6ce51bd9c68032c85": 3
+    }
+  },
+  {
+    "query": "What precision, recall, and F-1 scores did the HECS tool achieve according to Wang et al.?",
+    "answer": "Precision 76.8%, recall 84.3%, F-1 80.4%",
+    "relevant_chunks": [
+      "chunk_c0d7cc3373d27919a37bbfa433aa2942513890a419ff8c21dbd620c0a11167b1",
+      "chunk_3f6e8aac395c56599351aae25cdff6d523d3350b7e11a9b2fdaa734192e1c1ec"
+    ],
+    "relevance_scores": {
+      "chunk_c0d7cc3373d27919a37bbfa433aa2942513890a419ff8c21dbd620c0a11167b1": 3,
+      "chunk_3f6e8aac395c56599351aae25cdff6d523d3350b7e11a9b2fdaa734192e1c1ec": 2
+    }
+  },
+  {
+    "query": "What was the successful refactoring rate achieved by Copilot Chat using Few-Shot with Chain-of-Thought?",
+    "answer": "87.1%",
+    "relevant_chunks": [
+      "chunk_9a2387ee94b33aa0c80419ae51a5816ab4ace37a683767a6f6872fbbd95e8166",
+      "chunk_f31f5bc5ff04e179ccc76ec829a3b038f5e9e94cd05f1b5cb2e44bedbc091bde"
+    ],
+    "relevance_scores": {
+      "chunk_9a2387ee94b33aa0c80419ae51a5816ab4ace37a683767a6f6872fbbd95e8166": 3,
+      "chunk_f31f5bc5ff04e179ccc76ec829a3b038f5e9e94cd05f1b5cb2e44bedbc091bde": 2
+    }
+  },
+  {
+    "query": "What percentage of code smells were successfully refactored using Context-Specific prompting according to Menolli et al.?",
+    "answer": "86%",
+    "relevant_chunks": [
+      "chunk_9a2387ee94b33aa0c80419ae51a5816ab4ace37a683767a6f6872fbbd95e8166",
+      "chunk_3f6e8aac395c56599351aae25cdff6d523d3350b7e11a9b2fdaa734192e1c1ec"
+    ],
+    "relevance_scores": {
+      "chunk_9a2387ee94b33aa0c80419ae51a5816ab4ace37a683767a6f6872fbbd95e8166": 3,
+      "chunk_3f6e8aac395c56599351aae25cdff6d523d3350b7e11a9b2fdaa734192e1c1ec": 2
+    }
+  },
+  {
+    "query": "What bug identification capability did RETester have according to Wang et al.?",
+    "answer": "Identified new bugs in codebases that had never been found before",
+    "relevant_chunks": [
+      "chunk_3f6e8aac395c56599351aae25cdff6d523d3350b7e11a9b2fdaa734192e1c1ec"
+    ],
+    "relevance_scores": {
+      "chunk_3f6e8aac395c56599351aae25cdff6d523d3350b7e11a9b2fdaa734192e1c1ec": 3
+    }
+  },
+  {
+    "query": "What was the accuracy of refactoring suggestions produced by GPT-4 according to Midolo et al.?",
+    "answer": "90.7%",
+    "relevant_chunks": [
+      "chunk_f31f5bc5ff04e179ccc76ec829a3b038f5e9e94cd05f1b5cb2e44bedbc091bde"
+    ],
+    "relevance_scores": {
+      "chunk_f31f5bc5ff04e179ccc76ec829a3b038f5e9e94cd05f1b5cb2e44bedbc091bde": 3
+    }
+  },
+  {
+    "query": "What success build rate did the authors achieve with 50-shot refactoring of dockerfiles according to Ksontini et al.?",
+    "answer": "63%",
+    "relevant_chunks": [
+      "chunk_6bf80cdfe91657d5d068fe1666d95eca9ed4a0508164493dccfaa155d8fa2bd1"
+    ],
+    "relevance_scores": {
+      "chunk_6bf80cdfe91657d5d068fe1666d95eca9ed4a0508164493dccfaa155d8fa2bd1": 3
+    }
+  },
+  {
+    "query": "What percentage similarity did the authors achieve with human refactored code using Context-Specific prompting in Prompt 2 according to Divyansh et al.?",
+    "answer": "83.58%",
+    "relevant_chunks": [
+      "chunk_a49d1b8148de356a6fed5ae359c70146db24b515cb6fd11dc1ecca6045d14fd1"
+    ],
+    "relevance_scores": {
+      "chunk_a49d1b8148de356a6fed5ae359c70146db24b515cb6fd11dc1ecca6045d14fd1": 3
+    }
+  },
+  {
+    "query": "Which LLM and prompting approach did Kim [43] identify as most effective, and what PIQS score did it achieve?",
+    "answer": "Claude combined with Context-Specific Prompts was the most effective, achieving a PIQS of 89.51, followed by Meta's 88.98.",
+    "relevant_chunks": [
+      "chunk_b044b5491ba2e57db84b01b643bc4f30b196d6f670d8a7d5ca86e1ec1ac6e552",
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_b044b5491ba2e57db84b01b643bc4f30b196d6f670d8a7d5ca86e1ec1ac6e552": 3,
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 2
+    }
+  },
+  {
+    "query": "What precision and refactoring rates did Wang et al. [44] achieve using Few-Shot and Context-Specific prompting with GOT-2o-mini?",
+    "answer": "They reached 98% precision for refactoring identification and 80% for refactoring.",
+    "relevant_chunks": [
+      "chunk_80c4b51bf8af22381d1e1d52d0848b27c9c64057655d24feef484b44973c1b16",
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_80c4b51bf8af22381d1e1d52d0848b27c9c64057655d24feef484b44973c1b16": 3,
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 2
+    }
+  },
+  {
+    "query": "How did AlOmar et al. [69] reduce the number of prompting turns, and what was the reduction?",
+    "answer": "By using context-specific, few-shot, and output-constrained prompting, they reduced prompting turns from an average of 13.58 to 1.45.",
+    "relevant_chunks": [
+      "chunk_3c9cda7325f87f0f3e936d0197da681dce5807b6ad65a169a043d983efa51f95"
+    ],
+    "relevance_scores": {
+      "chunk_3c9cda7325f87f0f3e936d0197da681dce5807b6ad65a169a043d983efa51f95": 3
+    }
+  },
+  {
+    "query": "How many Java for-loops did Midolo et al. [46] refactor into stream pipelines, and which model did they use?",
+    "answer": "They refactored 2101 out of 2132 Java for-loops into stream pipelines using GPT-3.5-Turbo with Context-Specific prompting.",
+    "relevant_chunks": [
+      "chunk_3c9cda7325f87f0f3e936d0197da681dce5807b6ad65a169a043d983efa51f95"
+    ],
+    "relevance_scores": {
+      "chunk_3c9cda7325f87f0f3e936d0197da681dce5807b6ad65a169a043d983efa51f95": 3
+    }
+  },
+  {
+    "query": "What reduction in cyclomatic complexity did Pucho et al. [73] achieve using Context-Specific and multi-LLM agents with MetaGPT?",
+    "answer": "They reduced cyclomatic complexity by 26%.",
+    "relevant_chunks": [
+      "chunk_84c4b388937aca21548cdfcd2f126e1da38f2c200a216ccb971c9aeea12464fe"
+    ],
+    "relevance_scores": {
+      "chunk_84c4b388937aca21548cdfcd2f126e1da38f2c200a216ccb971c9aeea12464fe": 3
+    }
+  },
+  {
+    "query": "What BLEU-T scores did Caumartin et al. [70] achieve when improving CodeLlama to comparable performance to ChatGPT?",
+    "answer": "CodeLlama achieved 77.13 versus ChatGPT's 76.44 BLEU-T.",
+    "relevant_chunks": [
+      "chunk_84c4b388937aca21548cdfcd2f126e1da38f2c200a216ccb971c9aeea12464fe"
+    ],
+    "relevance_scores": {
+      "chunk_84c4b388937aca21548cdfcd2f126e1da38f2c200a216ccb971c9aeea12464fe": 3
+    }
+  },
+  {
+    "query": "What result preference did Pandini et al. [71] achieve using Context-Specific prompting with Claude 3.5 Sonnet?",
+    "answer": "They reached up to 75% result preference from study participants.",
+    "relevant_chunks": [
+      "chunk_b5fb4efaea8bcfcd8cbcde90bd485714307c2dacd4fdb5bf71fbc2b63d8a0246"
+    ],
+    "relevance_scores": {
+      "chunk_b5fb4efaea8bcfcd8cbcde90bd485714307c2dacd4fdb5bf71fbc2b63d8a0246": 3
+    }
+  },
+  {
+    "query": "What accuracy did Guo et al. [67] achieve in intention extraction and code using Few-Shot prompting?",
+    "answer": "They achieved 79% accuracy in intention extraction and 66% in code.",
+    "relevant_chunks": [
+      "chunk_b5fb4efaea8bcfcd8cbcde90bd485714307c2dacd4fdb5bf71fbc2b63d8a0246"
+    ],
+    "relevance_scores": {
+      "chunk_b5fb4efaea8bcfcd8cbcde90bd485714307c2dacd4fdb5bf71fbc2b63d8a0246": 3
+    }
+  },
+  {
+    "query": "What refactoring pass rate did Xu et al.'s HLSRewriter achieve using Chain-of-Thought prompting?",
+    "answer": "HLSRewriter achieved an 86.67% refactoring pass rate.",
+    "relevant_chunks": [
+      "chunk_3bb95f88cc69ef2dde01a08efd4bcddd13813687602c024094fc7b61d4e35794"
+    ],
+    "relevance_scores": {
+      "chunk_3bb95f88cc69ef2dde01a08efd4bcddd13813687602c024094fc7b61d4e35794": 3
+    }
+  },
+  {
+    "query": "According to Tkackuk [48], how did Claude and ChatGPT compare in refactoring success rate?",
+    "answer": "Claude reached the highest refactoring success rate of 78.8%, followed by ChatGPT at 76.6%.",
+    "relevant_chunks": [
+      "chunk_3bb95f88cc69ef2dde01a08efd4bcddd13813687602c024094fc7b61d4e35794"
+    ],
+    "relevance_scores": {
+      "chunk_3bb95f88cc69ef2dde01a08efd4bcddd13813687602c024094fc7b61d4e35794": 3
+    }
+  },
+  {
+    "query": "What score did Guenoune et al. [12] achieve in matching with human naming using Few-Shot and Chain-of-Thought with Gemini?",
+    "answer": "They reached a highest score of 98.75% in matching with human naming.",
+    "relevant_chunks": [
+      "chunk_e02b5d34c4130c75fd467a716929279c6795f3f56d82000f734f110971d456d4"
+    ],
+    "relevance_scores": {
+      "chunk_e02b5d34c4130c75fd467a716929279c6795f3f56d82000f734f110971d456d4": 3
+    }
+  },
+  {
+    "query": "What four steps did Guenoune et al. [12] describe for their LLM-based class naming approach?",
+    "answer": "Step 1: Instruct the LLM and check its understanding of the RCS + dot syntax. Step 2: Ask the LLM its criteria about class relevance. Step 3: Ask the LLM to evaluate each concept (explanation + score) and name the candidate class. Step 4: Ask the LLM to format the result.",
+    "relevant_chunks": [
+      "chunk_e02b5d34c4130c75fd467a716929279c6795f3f56d82000f734f110971d456d4"
+    ],
+    "relevance_scores": {
+      "chunk_e02b5d34c4130c75fd467a716929279c6795f3f56d82000f734f110971d456d4": 3
+    }
+  },
+  {
+    "query": "What percentage of successful code smell removals did Amaral [72] achieve using Copilot (ChatGPT-4o)?",
+    "answer": "Copilot (ChatGPT-4o) achieved up to 58.78% successful code smell removals.",
+    "relevant_chunks": [
+      "chunk_e02b5d34c4130c75fd467a716929279c6795f3f56d82000f734f110971d456d4"
+    ],
+    "relevance_scores": {
+      "chunk_e02b5d34c4130c75fd467a716929279c6795f3f56d82000f734f110971d456d4": 3
+    }
+  },
+  {
+    "query": "What F1-score did De Sousa et al. [74] achieve for detecting PL/SQL bad smells using GPT-4o?",
+    "answer": "They achieved an F1-score of 79% for detecting PL/SQL bad smells.",
+    "relevant_chunks": [
+      "chunk_c6c5b1d93afce2bf14c0833a4e99caec8090c4ea1985ec9903b118ba693bea7a"
+    ],
+    "relevance_scores": {
+      "chunk_c6c5b1d93afce2bf14c0833a4e99caec8090c4ea1985ec9903b118ba693bea7a": 3
+    }
+  },
+  {
+    "query": "Instead of a single best prompting method, what approach did Rajendran et al. [68] use for refactoring?",
+    "answer": "They used different usages of Agents to refactor, breaking down tasks for specialized agents; no final prompt was provided.",
+    "relevant_chunks": [
+      "chunk_b044b5491ba2e57db84b01b643bc4f30b196d6f670d8a7d5ca86e1ec1ac6e552",
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_b044b5491ba2e57db84b01b643bc4f30b196d6f670d8a7d5ca86e1ec1ac6e552": 3,
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 2
+    }
+  },
+  {
+    "query": "What four types of data analysis are reported in Table 6 for evaluating LLM-driven refactoring (RQ4)?",
+    "answer": "Quantitative, Qualitative, Comparative, and Correctness.",
+    "relevant_chunks": [
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8",
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8": 3,
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 2
+    }
+  },
+  {
+    "query": "Which correctness metrics are reported for each study when explicitly mentioned, and how are missing metrics handled?",
+    "answer": "Correctness is reported as Precision, Accuracy, Recall, or F1-measure when explicitly stated, and as Unknown if no performance metrics are provided.",
+    "relevant_chunks": [
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8",
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8": 3,
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 2
+    }
+  },
+  {
+    "query": "What accuracy did Gehring [13] and Depalma et al. [16] report in their refactoring studies?",
+    "answer": "Gehring [13] reported 100% accuracy, and Depalma et al. [16] reported 96.8% accuracy.",
+    "relevant_chunks": [
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 3,
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8": 1
+    }
+  },
+  {
+    "query": "What F1-measure did Dilhara et al. [7] achieve, and what was the size of their dataset?",
+    "answer": "Dilhara et al. [7] achieved an F1-measure of 96.6% using 9325 code change patterns.",
+    "relevant_chunks": [
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 3,
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8": 1
+    }
+  },
+  {
+    "query": "Which studies in Table 6 included qualitative analysis with surveyed participants?",
+    "answer": "Several did, including Depalma et al. [16] (15 students), Pomian et al. [5] (18 developers), Pomian et al. [6] (16 developers), Cui et al. [51], Wang et al. [63], and Cui et al. [52] (50 software engineers each), Menolli et al. [62] (23 students), Alturayeif & Hassine [42] (2 professors and 11 graduate students), Liu et al. [38] (3 human developers), Dong et al. [65] (original developers), Ghammam et al. [49] (60 developers), and Batole et al. [56] (30 grad students).",
+    "relevant_chunks": [
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a",
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8"
+    ],
+    "relevance_scores": {
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 3,
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8": 2
+    }
+  },
+  {
+    "query": "Which tools were used for comparison in the study by Pomian et al. [6]?",
+    "answer": "JDeodorant, JExtract, REMS, GEMS, SEMI, and LiveRef.",
+    "relevant_chunks": [
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a"
+    ],
+    "relevance_scores": {
+      "chunk_6588411ea4e6a4f7da265fba003a2e186c663ccdd2d2bf30c33c48b27b04a11a": 3,
+      "chunk_5644fae87930ecd028cb19b9bf212972809f26ece795c70c31db0329d13b75c8": 1
+    }
+  }
+]
