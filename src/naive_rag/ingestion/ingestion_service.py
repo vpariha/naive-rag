@@ -131,7 +131,7 @@ class IngestionService:
                 digest.update(block)
 
         file_hash = digest.hexdigest()
-        source_key = pdf_path.resolve().as_posix()
+        source_key = pdf_path._raw_paths[0]
         identity = f"{source_key}\0{file_hash}".encode()
         document_id = "document_" + hashlib.sha256(identity).hexdigest()
 

@@ -4,6 +4,27 @@ Naive RAG is a Python-based retrieval-augmented generation application for askin
 
 ![Screenshot](Screenshot.png)
 
+## Evaluation metrics
+
+```json
+{
+  "queries_evaluated": 67,
+  "k": 5,
+  "similarity": {
+    "recall_at_5": 0.42288557213930345,
+    "precision_at_5": 0.11343283582089553,
+    "mrr": 0.38656716417910447,
+    "ndcg_at_5": 0.3686124628832584
+  },
+  "mmr": {
+    "recall_at_5": 0.46766169154228854,
+    "precision_at_5": 0.11940298507462686,
+    "mrr": 0.39875621890547264,
+    "ndcg_at_5": 0.380454226411776
+  }
+}
+```
+
 ## Features
 
 - PDF document ingestion with Docling
